@@ -1,4 +1,4 @@
-const CACHE = "bangees-services-v1";
+const CACHE = "bangees-services-v2";
 const ASSETS = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", (e) => {
