@@ -16,7 +16,7 @@
 <style>
   :root{
     --paper:#f7f9fc; --ink:#0a1a33; --navy:#081226; --muted:#51617a;
-    --accent:#0b6bff; --wa:#1fae55; --line:#dbe3ef; --card:#ffffff;
+    --accent:#0b6bff; --tg:#2aabee; --line:#dbe3ef; --card:#ffffff;
   }
   *{box-sizing:border-box;margin:0;padding:0;}
   body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--paper);color:var(--ink);line-height:1.55;}
@@ -25,14 +25,14 @@
   header.top .wrap{display:flex;align-items:center;justify-content:space-between;padding-top:12px;padding-bottom:12px;}
   .logo{font-size:21px;font-weight:800;letter-spacing:-.02em;}
   .logo span{color:var(--accent);}
-  .topcta{background:var(--wa);color:#fff;text-decoration:none;font-weight:700;font-size:14.5px;padding:9px 16px;border-radius:999px;}
+  .topcta{background:var(--tg);color:#fff;text-decoration:none;font-weight:700;font-size:14.5px;padding:9px 16px;border-radius:999px;}
   .hero{padding:52px 0 38px;text-align:center;}
   .hero h1{font-size:clamp(30px,6vw,46px);line-height:1.12;letter-spacing:-.02em;max-width:720px;margin:0 auto;}
   .hero h1 em{font-style:normal;color:var(--accent);}
   .hero p{color:var(--muted);font-size:17.5px;max-width:560px;margin:16px auto 0;}
   .cta-row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:26px;}
   .btn{display:inline-block;text-decoration:none;font-weight:700;font-size:16px;padding:13px 26px;border-radius:999px;}
-  .btn-wa{background:var(--wa);color:#fff;}
+  .btn-tg{background:var(--tg);color:#fff;}
   .btn-ghost{background:var(--card);color:var(--ink);border:1px solid var(--line);}
   .trust{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:26px;}
   .trust span{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-size:13.5px;color:var(--muted);font-weight:600;}
@@ -49,7 +49,7 @@
   .card .for{color:var(--muted);font-size:14.5px;min-height:44px;}
   .card ul{list-style:none;margin:14px 0 20px;flex:1;}
   .card li{padding:5px 0 5px 26px;position:relative;font-size:15px;}
-  .card li::before{content:"✓";position:absolute;left:0;color:var(--wa);font-weight:800;}
+  .card li::before{content:"✓";position:absolute;left:0;color:var(--tg);font-weight:800;}
   .card .btn{text-align:center;}
   .care{margin-top:16px;background:var(--navy);color:#eaf1ff;border-radius:18px;padding:22px 24px;display:flex;gap:16px;align-items:center;flex-wrap:wrap;justify-content:space-between;}
   .care b{font-size:18px;}
@@ -92,7 +92,7 @@
 <header class="top">
   <div class="wrap">
     <div class="logo">Bangees<span>.</span> websites</div>
-    <a class="topcta wa-link" href="#contact">Chat on WhatsApp</a>
+    <a class="topcta tg-link" href="#contact">Chat on Telegram</a>
   </div>
 </header>
 
@@ -102,7 +102,7 @@
     <h1>Your customers are on their phones. <em>Your business should be too.</em></h1>
     <p>A professional website for your business, live within days. Your services, photos, prices and WhatsApp in one place customers can trust.</p>
     <div class="cta-row">
-      <a class="btn btn-wa wa-link" href="#contact">Start on WhatsApp</a>
+      <a class="btn btn-tg tg-link" href="#contact">Start on Telegram</a>
       <a class="btn btn-ghost" href="#packages">See packages</a>
     </div>
     <div class="trust">
@@ -129,7 +129,7 @@
           <li>Live in 2–3 days</li>
           <li>2 rounds of revisions</li>
         </ul>
-        <a class="btn btn-wa wa-link" data-plan="Launch (₦75,000)" href="#contact">Choose Launch</a>
+        <a class="btn btn-tg tg-link" data-plan="Launch (₦75,000)" href="#contact">Choose Launch</a>
       </div>
       <div class="card pop">
         <div class="badge">MOST POPULAR</div>
@@ -144,7 +144,7 @@
           <li>Live in 5–7 days</li>
           <li>2 rounds of revisions</li>
         </ul>
-        <a class="btn btn-wa wa-link" data-plan="Business (₦180,000)" href="#contact">Choose Business</a>
+        <a class="btn btn-tg tg-link" data-plan="Business (₦180,000)" href="#contact">Choose Business</a>
       </div>
       <div class="card">
         <h3>Business Plus</h3>
@@ -157,7 +157,7 @@
           <li>Custom features quoted upfront, like accounts or a dashboard</li>
           <li>Timeline agreed before we start</li>
         </ul>
-        <a class="btn btn-wa wa-link" data-plan="Business Plus (from ₦300,000)" href="#contact">Talk about Plus</a>
+        <a class="btn btn-tg tg-link" data-plan="Business Plus (from ₦300,000)" href="#contact">Talk about Plus</a>
       </div>
     </div>
     <div class="care">
@@ -172,7 +172,7 @@
   <section>
     <h2>How it works</h2>
     <div class="steps">
-      <div class="step"><div class="n">1</div><h3>We talk</h3><p>Ten minutes on WhatsApp about your business and what the site must do.</p></div>
+      <div class="step"><div class="n">1</div><h3>We talk</h3><p>Ten minutes on Telegram about your business and what the site must do.</p></div>
       <div class="step"><div class="n">2</div><h3>You approve the plan</h3><p>A fixed price and a delivery date, agreed in writing before anything starts.</p></div>
       <div class="step"><div class="n">3</div><h3>50% deposit starts the build</h3><p>Your site is designed and built, and you see progress as it comes together.</p></div>
       <div class="step"><div class="n">4</div><h3>Launch day</h3><p>The site goes live, you pay the balance, and you get a simple walkthrough of how everything works.</p></div>
@@ -229,7 +229,7 @@
       </details>
       <details>
         <summary>What do I need to provide?</summary>
-        <p>Your business name, logo if you have one, photos, your services and prices, and your WhatsApp number. If your wording needs polish, that is included. Your prices and facts always come from you.</p>
+        <p>Your business name, logo if you have one, photos, your services and prices, and your business WhatsApp number (for the chat button on your own site). If your wording needs polish, that is included. Your prices and facts always come from you.</p>
       </details>
       <details>
         <summary>Are there any yearly costs?</summary>
@@ -237,7 +237,7 @@
       </details>
       <details>
         <summary>Can I update the site myself?</summary>
-        <p>On custom builds, yes, an admin panel can be included. On Launch and Business sites, most clients prefer the Care Plan: you send a WhatsApp message and the change is made for you.</p>
+        <p>On custom builds, yes, an admin panel can be included. On Launch and Business sites, most clients prefer the Care Plan: you send a Telegram message and the change is made for you.</p>
       </details>
       <details>
         <summary>I already have Instagram. Why do I need a website?</summary>
@@ -252,9 +252,9 @@
 
   <div class="contact" id="contact">
     <h2>Ready when you are</h2>
-    <p>Send a WhatsApp message with your business name and what you sell. You will get a straight answer on price and delivery date, no pressure.</p>
+    <p>Send a Telegram message with your business name and what you sell. You will get a straight answer on price and delivery date, no pressure.</p>
     <div class="cta-row">
-      <a class="btn btn-wa wa-link" href="#contact">Chat on WhatsApp</a>
+      <a class="btn btn-tg tg-link" href="#contact">Chat on Telegram</a>
       <a class="btn btn-ghost" href="https://x.com/iamBangees" target="_blank" rel="noopener">Message on X</a>
     </div>
   </div>
@@ -285,17 +285,17 @@
 </div>
 
 <script>
-  // === CONFIG: Abubakar's WhatsApp number in international format, digits only (e.g. 2348012345678).
-  // While empty, WhatsApp buttons scroll to the contact section instead of opening a dead link.
-  const WHATSAPP_NUMBER = "";
+  // === CONFIG: Abubakar's Telegram username (no @). Every contact button opens
+  // t.me/<username> with a prefilled message; package buttons name the package.
+  const TELEGRAM_USERNAME = "iambangees";
   document.getElementById("yr").textContent = new Date().getFullYear();
-  if (WHATSAPP_NUMBER) {
-    document.querySelectorAll(".wa-link").forEach(a => {
+  if (TELEGRAM_USERNAME) {
+    document.querySelectorAll(".tg-link").forEach(a => {
       const plan = a.getAttribute("data-plan");
       const msg = plan
         ? "Hello Bangees, I am interested in the " + plan + " package for my business."
         : "Hello Bangees, I would like a website for my business.";
-      a.href = "https://wa.me/" + WHATSAPP_NUMBER + "?text=" + encodeURIComponent(msg);
+      a.href = "https://t.me/" + TELEGRAM_USERNAME + "?text=" + encodeURIComponent(msg);
       a.target = "_blank";
       a.rel = "noopener";
     });
